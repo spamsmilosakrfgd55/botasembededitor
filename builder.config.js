@@ -8,8 +8,8 @@
 // URL options can override the options below.
 // Options set through the menu can override both until the page is refreshed.
 options = {
-    username: 'Discord Bot',
-    avatar: 'https://cdn.discordapp.com/embed/avatars/1.png',
+    username: 'BoTaS',
+    avatar: 'https://cdn.discordapp.com/avatars/1422933752388259891/1a02debbf3f494a5ec8c60926765c569.png?size=1024',
     verified: false,
     noUser: false,
     data: null,
@@ -44,4 +44,5 @@ addEventListener('DOMContentLoaded', () => {
 
     // Remove the colour picker
     // document.querySelector('.colors').remove()
+
 })
