@@ -29,13 +29,13 @@ options = {
 
 // Default JSON object
 
-// json = {
-//     content: "Hello world",
-//     embed: {
-//         title: "A title",
-//         description: "A description",
-//     }
-// }
+ json = {
+     content: "Hello world",
+     embed: {
+         title: "A title",
+         description: "A description",
+     }
+ }
 
 
 // Write any code under the 'DOMContentLoaded' event to run after the page has loaded.
@@ -46,3 +46,4 @@ addEventListener('DOMContentLoaded', () => {
     // document.querySelector('.colors').remove()
 
 })
+
