@@ -36,6 +36,16 @@
         <script src="./assets/js/components.js"></script>
         <script src="./builder.config.js"></script>
         <script src="./assets/js/script.js" defer></script>
+        <script>
+  (function() {
+    // Kontrola, zda je stránka v iframe
+    if (window.self === window.top) {
+      // Pokud window.self (tato stránka) je stejné jako window.top (hlavní okno),
+      // znamená to, že stránka NENÍ v iframe.
+      window.location.href = "https://smilos.is-a.dev/projects/botas/embedbuilder";
+    }
+  })();
+</script>
     </head>
     <body class="gui emptyEmbed">
         <div class="main">
@@ -617,3 +627,4 @@
         <input type="hidden" value>
     </body>
 </html>
+
